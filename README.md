@@ -1,1 +1,6 @@
 # CloudPowerCalc
+The CloudPowerCalc project presents an interactive and user-friendly web application designed to harness the power of cloud computing for mathematical computations. The focus of this project is on calculating the result of a mathematical expression: raising a given base number to a specified exponent. This functionality is encapsulated within a sleek and intuitive web interface titled "TO THE POWER OF MATH!"
+
+The user interface is carefully crafted using HTML and CSS, featuring vibrant colors and clean design elements. The interface invites users to input a base number and its corresponding exponent, triggering a calculation that is seamlessly processed in the cloud. The project leverages the power of serverless architecture through Amazon Web Services (AWS), specifically utilizing AWS Lambda functions to perform the mathematical computation.
+
+The client-side functionality is implemented using Python, establishing a connection between the user interface and the cloud-based backend. Upon user input, a callAPI function is invoked, initiating a POST request to an AWS API Gateway. The API Gateway triggers an AWS Lambda function, which performs the mathematical computation and returns the result.
